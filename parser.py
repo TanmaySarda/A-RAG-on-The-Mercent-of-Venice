@@ -2,10 +2,6 @@ import os
 import re 
 import pandas as pd
 import time
-from textblob import TextBlob
-
-if os.path.exists('dialogue.json'):
-    os.remove('dialogue.json')
 
 with open('Shakespeare.txt', 'r') as file:
     content = file.read()
@@ -32,13 +28,10 @@ while i < len(content):
 
     i += 1
 
-with open('transcript.txt', 'w') as file:
-    file.write('\n'.join(content))
 
 i = 0
 if content[i].isdigit():
     current_play_name = content[i+1]
-    print(f"Found play name at index {i}: {current_play_name}")
     i += 4
 
 
@@ -88,6 +81,9 @@ while(i < len(content)):
         if not dialogue.startswith('"'):
             dialogue = f'"{dialogue}'
 
+        if dialogue.endswith(' '):
+            dialogue = dialogue[:-1]
+        
         if not dialogue.endswith('"'):
             dialogue = f'{dialogue}"'
         
