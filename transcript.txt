@@ -2,7 +2,7 @@
 THE MERCHANT OF VENICE
 by William Shakespeare
 DRAMATIS PERSONAE
-THE DUKE OF VENICE
+THE DUKE_OF_VENICE
 THE PRINCE OF MOROCCO, suitor to Portia
 THE PRINCE OF ARRAGON,    "    "    "
 ANTONIO, a merchant of Venice
@@ -512,7 +512,7 @@ SCENE I.
 Belmont. PORTIA'S house
 Flourish of cornets.
 and three or four FOLLOWERS accordingly, with PORTIA, NERISSA, and train
-PRINCEOFMORROCO. Mislike me not for my complexion,
+PRINCE_OF_MORROCO. Mislike me not for my complexion,
 The shadowed livery of the burnish'd sun,
 To whom I am a neighbour, and near bred.
 Bring me the fairest creature northward born,
@@ -534,7 +534,7 @@ His wife who wins me by that means I told you,
 Yourself, renowned Prince, then stood as fair
 As any comer I have look'd on yet
 For my affection.
-PRINCEOFMORROCO. Even for that I thank you.
+PRINCE_OF_MORROCO. Even for that I thank you.
 Therefore, I pray you, lead me to the caskets
 To try my fortune. By this scimitar,
 That slew the Sophy and a Persian prince,
@@ -556,10 +556,10 @@ And either not attempt to choose at all,
 Or swear before you choose, if you choose wrong,
 Never to speak to lady afterward
 In way of marriage; therefore be advis'd.
-PRINCEOFMORROCO. Nor will not; come, bring me unto my chance.
+PRINCE_OF_MORROCO. Nor will not; come, bring me unto my chance.
 PORTIA. First, forward to the temple. After dinner
 Your hazard shall be made.
-PRINCEOFMORROCO. Good fortune then,
+PRINCE_OF_MORROCO. Good fortune then,
 To make me blest or cursed'st among men!
 [Cornets, and
 SCENE II.
@@ -953,7 +953,7 @@ and their trains
 PORTIA. Go draw aside the curtains and discover
 The several caskets to this noble Prince.
 Now make your choice.
-PRINCEOFMORROCO. The first, of gold, who this inscription bears:
+PRINCE_OF_MORROCO. The first, of gold, who this inscription bears:
 'Who chooseth me shall gain what many men desire.'
 The second, silver, which this promise carries:
 'Who chooseth me shall get as much as he deserves.'
@@ -962,7 +962,7 @@ This third, dull lead, with warning all as blunt:
 How shall I know if I do choose the right?
 PORTIA. The one of them contains my picture, Prince;
 If you choose that, then I am yours withal.
-PRINCEOFMORROCO. Some god direct my judgment! Let me see;
+PRINCE_OF_MORROCO. Some god direct my judgment! Let me see;
 I will survey th' inscriptions back again.
 What says this leaden casket?
 'Who chooseth me must give and hazard all he hath.'
@@ -1012,7 +1012,7 @@ Lies all within. Deliver me the key;
 Here do I choose, and thrive I as I may!
 PORTIA. There, take it, Prince, and if my form lie there,
 Then I am yours.                [He opens the golden casket]
-PRINCEOFMORROCO. O hell! what have we here?
+PRINCE_OF_MORROCO. O hell! what have we here?
 A carrion Death, within whose empty eye
 There is a written scroll! I'll read the writing.
 'All that glisters is not gold,
@@ -1858,9 +1858,9 @@ ACT IV.
 SCENE I.
 Venice. The court of justice
 and OTHERS
-DUKE OF VENICE. What, is Antonio here?
+DUKE_OF_VENICE. What, is Antonio here?
 ANTONIO. Ready, so please your Grace.
-DUKE OF VENICE. I am sorry for thee; thou art come to answer
+DUKE_OF_VENICE. I am sorry for thee; thou art come to answer
 A stony adversary, an inhuman wretch,
 Uncapable of pity, void and empty
 From any dram of mercy.
@@ -1872,9 +1872,9 @@ Out of his envy's reach, I do oppose
 My patience to his fury, and am arm'd
 To suffer with a quietness of spirit
 The very tyranny and rage of his.
-DUKE OF VENICE. Go one, and call the Jew into the court.
+DUKE_OF_VENICE. Go one, and call the Jew into the court.
 SALERIO. He is ready at the door; he comes, my lord.
-DUKE OF VENICE. Make room, and let him stand before our face.
+DUKE_OF_VENICE. Make room, and let him stand before our face.
 Shylock, the world thinks, and I think so too,
 That thou but leadest this fashion of thy malice
 To the last hour of act; and then, 'tis thought,
@@ -1946,7 +1946,7 @@ BASSANIO. For thy three thousand ducats here is six.
 SHYLOCK. If every ducat in six thousand ducats
 Were in six parts, and every part a ducat,
 I would not draw them; I would have my bond.
-DUKE OF VENICE. How shalt thou hope for mercy, rend'ring none?
+DUKE_OF_VENICE. How shalt thou hope for mercy, rend'ring none?
 SHYLOCK. What judgment shall I dread, doing no wrong?
 You have among you many a purchas'd slave,
 Which, fike your asses and your dogs and mules,
@@ -1962,14 +1962,14 @@ Is dearly bought, 'tis mine, and I will have it.
 If you deny me, fie upon your law!
 There is no force in the decrees of Venice.
 I stand for judgment; answer; shall I have it?
-DUKE OF VENICE. Upon my power I may dismiss this court,
+DUKE_OF_VENICE. Upon my power I may dismiss this court,
 Unless Bellario, a learned doctor,
 Whom I have sent for to determine this,
 Come here to-day.
 SALERIO. My lord, here stays without
 A messenger with letters from the doctor,
 New come from Padua.
-DUKE OF VENICE. Bring us the letters; call the messenger.
+DUKE_OF_VENICE. Bring us the letters; call the messenger.
 BASSANIO. Good cheer, Antonio! What, man, courage yet!
 The Jew shall have my flesh, blood, bones, and all,
 Ere thou shalt lose for me one drop of blood.
@@ -1978,7 +1978,7 @@ Meetest for death; the weakest kind of fruit
 Drops earliest to the ground, and so let me.
 You cannot better be employ'd, Bassanio,
 Than to live still, and write mine epitaph.
-DUKE OF VENICE. Came you from Padua, from Bellario?
+DUKE_OF_VENICE. Came you from Padua, from Bellario?
 NERISSA. From both, my lord. Bellario greets your Grace.
 [Presents a letter]
 BASSANIO. Why dost thou whet thy knife so earnestly?
@@ -2003,12 +2003,12 @@ SHYLOCK. Till thou canst rail the seal from off my bond,
 Thou but offend'st thy lungs to speak so loud;
 Repair thy wit, good youth, or it will fall
 To cureless ruin. I stand here for law.
-DUKE OF VENICE. This letter from Bellario doth commend
+DUKE_OF_VENICE. This letter from Bellario doth commend
 A young and learned doctor to our court.
 Where is he?
 NERISSA. He attendeth here hard by
 To know your answer, whether you'll admit him.
-DUKE OF VENICE. With all my heart. Some three or four of you
+DUKE_OF_VENICE. With all my heart. Some three or four of you
 Go give him courteous conduct to this place.
 Meantime, the court shall hear Bellario's letter.
 CLERK.  [Reads]  'Your Grace shall understand that at the receipt
@@ -2024,16 +2024,16 @@ of years be no impediment to let him lack a reverend estimation,
 for I never knew so young a body with so old a head. I leave him
 to your gracious acceptance, whose trial shall better publish his
 commendation.'
-DUKE OF VENICE. YOU hear the learn'd Bellario, what he writes;
+DUKE_OF_VENICE. YOU hear the learn'd Bellario, what he writes;
 And here, I take it, is the doctor come.
 Give me your hand; come you from old Bellario?
 PORTIA. I did, my lord.
-DUKE OF VENICE. You are welcome; take your place.
+DUKE_OF_VENICE. You are welcome; take your place.
 Are you acquainted with the difference
 That holds this present question in the court?
 PORTIA. I am informed throughly of the cause.
 Which is the merchant here, and which the Jew?
-DUKE OF VENICE. Antonio and old Shylock, both stand forth.
+DUKE_OF_VENICE. Antonio and old Shylock, both stand forth.
 PORTIA. Is your name Shylock?
 SHYLOCK. Shylock is my name.
 PORTIA. Of a strange nature is the suit you follow;
@@ -2236,7 +2236,7 @@ GRATIANO. Beg that thou mayst have leave to hang thyself;
 And yet, thy wealth being forfeit to the state,
 Thou hast not left the value of a cord;
 Therefore thou must be hang'd at the state's charge.
-DUKE OF VENICE. That thou shalt see the difference of our spirit,
+DUKE_OF_VENICE. That thou shalt see the difference of our spirit,
 I pardon thee thy life before thou ask it.
 For half thy wealth, it is Antonio's;
 The other half comes to the general state,
@@ -2259,7 +2259,7 @@ He presently become a Christian;
 The other, that he do record a gift,
 Here in the court, of all he dies possess'd
 Unto his son Lorenzo and his daughter.
-DUKE OF VENICE. He shall do this, or else I do recant
+DUKE_OF_VENICE. He shall do this, or else I do recant
 The pardon that I late pronounced here.
 PORTIA. Art thou contented, Jew? What dost thou say?
 SHYLOCK. I am content.
@@ -2267,15 +2267,15 @@ PORTIA. Clerk, draw a deed of gift.
 SHYLOCK. I pray you, give me leave to go from hence;
 I am not well; send the deed after me
 And I will sign it.
-DUKE OF VENICE. Get thee gone, but do it.
+DUKE_OF_VENICE. Get thee gone, but do it.
 GRATIANO. In christ'ning shalt thou have two god-fathers;
 Had I been judge, thou shouldst have had ten more,
 To bring thee to the gallows, not to the font.
-DUKE OF VENICE. Sir, I entreat you home with me to dinner.
+DUKE_OF_VENICE. Sir, I entreat you home with me to dinner.
 PORTIA. I humbly do desire your Grace of pardon;
 I must away this night toward Padua,
 And it is meet I presently set forth.
-DUKE OF VENICE. I am sorry that your leisure serves you not.
+DUKE_OF_VENICE. I am sorry that your leisure serves you not.
 Antonio, gratify this gentleman,
 For in my mind you are much bound to him.
 BASSANIO. Most worthy gentleman, I and my friend

@@ -1,5 +1,8 @@
 import os
 import re 
+import pandas as pd
+import time
+from textblob import TextBlob
 
 if os.path.exists('dialogue.json'):
     os.remove('dialogue.json')
@@ -57,13 +60,11 @@ while(i < len(content)):
 
     
     if content[i].split(" ")[0].endswith(".") and content[i].split(" ")[0].isupper():
-        
-        dialogue = content[i]
+        dialogue = content[i] + ' '
         flag = False
         i += 1
         while(i < len(content)):
             if(content[i].split(" ")[0].endswith(".") and content[i].split(" ")[0].isupper()):
-                dialogue += ' '
                 break
             if(content[i].startswith('SCENE')):
                 parts = content[i].split(" ")
@@ -79,9 +80,17 @@ while(i < len(content)):
             dialogue += content[i] + ' '
             i += 1
 
-        speaker = dialogue.split(" ")[0]
+        speaker = dialogue.split(" ")[0][:-1]
         dialogue = dialogue.split(" ")[1:]
         dialogue = ' '.join(dialogue)
+        dialogue.strip()
+        
+        if not dialogue.startswith('"'):
+            dialogue = f'"{dialogue}'
+
+        if not dialogue.endswith('"'):
+            dialogue = f'{dialogue}"'
+        
 
         dialogue_list.append([current_act, current_scene, current_place, speaker, dialogue])
         continue
@@ -92,22 +101,17 @@ while(i < len(content)):
 
 i = 1
 while(i < len(dialogue_list)):
+    pattern = r'([a-z0-9,.?!;-])([A-Z])'
+    substitution = r'\1 \2'
+    dialogue_list[i][4] = re.sub(pattern, substitution, dialogue_list[i][4])
+
+
     if dialogue_list[i][1] != dialogue_list[i-1][1]:
         dialogue_list[i][0:3] = dialogue_list[i-1][0:3]
         i += 1
+
     i += 1
 
-with open('dialogue.txt', 'w') as file:
-    file.write('\n'.join([f"{dialogue_list[i][0]} {dialogue_list[i][1]} {dialogue_list[i][2]} {dialogue_list[i][3]}: {dialogue_list[i][4]}" for i in range(len(dialogue_list))]))
 
-
-
-    
-
-        
-
-
-
-
-
-
+df = pd.DataFrame(dialogue_list, columns=['Act', 'Scene', 'Place', 'Speaker', 'Dialogue'])
+df.to_csv('dialogue.csv', index=False)
